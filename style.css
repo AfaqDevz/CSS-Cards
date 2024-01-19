@@ -1,0 +1,102 @@
+* {
+    font-family: 'Rubik';
+}
+
+body {
+    background: linear-gradient(90deg, rgb(0, 217, 255) 0%, rgb(0, 21, 255) 100%);
+}
+
+.allboxes {
+    margin: auto;
+    width: 50%;
+}
+
+.boxes {
+    height: 520px;
+    width: 335px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: rgb(255, 255, 253);
+    background: linear-gradient(90deg, rgba(255, 255, 253, 1) 0%, rgba(235, 234, 233, 1) 100%);
+    box-shadow: 1px 1px 10px black;
+    display: inline-block;
+    margin: 10px;
+}
+
+.boxes:hover {
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.boxesdetails {
+    padding: 10px;
+}
+
+.boxesdetails:hover {
+    flex-grow: 5px;
+}
+
+.images {
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    height: 40%;
+    width: 100%;
+}
+
+.pfp {
+    height: 8%;
+    width: 12%;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.paragraph {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.name {
+    display: inline;
+}
+
+.time {
+    display: inline;
+}
+
+.profilediv {
+    display: inline;
+}
+
+.profiledetails {
+    display: inline-block;
+}
+
+.Gradient {
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(180deg, rgba(68, 129, 210, 1) 0%, rgba(89, 190, 240, 1) 100%);
+}
+
+.Gradient2 {
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(180deg, rgb(172, 106, 0) 0%, rgb(255, 219, 100) 100%);
+}
+
+.Gradient3 {
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(180deg, rgb(191, 0, 0) 0%, rgb(255, 95, 95) 100%);
+}
+
+.Gradient:hover,
+.Gradient2:hover,
+.Gradient3:hover {
+    padding: 7px;
+}
